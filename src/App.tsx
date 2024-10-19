@@ -11,7 +11,7 @@ const Home = () => <div>Home</div>;
 const App = () => {
   return (
     <AuthProvider>
-      <Router basename='/'>
+      <Router>
         <Routes>
           <Route path="/" element={<UnauthenticatedLayout />}>
             <Route index element={<Home />} />
