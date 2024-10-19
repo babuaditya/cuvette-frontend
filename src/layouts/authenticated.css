@@ -1,0 +1,32 @@
+.authenticated-layout--header{
+    @apply px-10 py-[38px] flex justify-between border ;
+}
+.authenticated-layout--header_contact{
+    @apply mr-10 text-[28px] font-normal flex gap-6 ;
+
+}
+.authenticated-layout--container{
+@apply flex;
+}
+.authenticated-layout--sidenav {
+    width: 104px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    height:100vh;
+  }
+  
+  .authenticated-layout--sidenav_item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .authenticated-layout--sidenav_item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .authenticated-layout--sidenav_item span {
+    margin-left: 10px;
+  }
+  

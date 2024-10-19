@@ -1,0 +1,18 @@
+.unauthenticated-layout--header{
+    @apply mx-10 py-10 flex justify-between;
+}
+.unauthenticated-layout--header_contact{
+    @apply mr-10 text-[28px] font-normal;
+}
+
+.unauthenticated-layout--main{
+    @apply flex ml-[124px] mr-[119px] justify-between;
+}
+
+.unauthenticated-layout--paragraph{
+    @apply  max-w-[622px] flex justify-center items-center;
+}
+
+.unauthenticated-layout--footer{
+    @apply mb-7
+}
