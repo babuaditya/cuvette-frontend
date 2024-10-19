@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import InputWithIcon from '../stories/Input'; // Assuming InputWithIcon is a custom component
 import { Button } from "../stories/Button";
 import {submitRegisterForm, verifyEmail, verifyPhone} from '../services/register'
-import './login.css';
+import './Login.css';
 
 const validationRules = {
   name: { required: 'Name is required' },
