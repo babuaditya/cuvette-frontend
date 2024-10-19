@@ -1,12 +1,10 @@
 .registration-form{
-    /* Define the border width */
-  position: relative;
-      overflow:hidden;
-      padding: 10px;
-      border-radius: 15px;
+    position: relative;
+    overflow:hidden;
+    padding: 10px;
+    border-radius: 15px;
     border-image-source: linear-gradient(90deg, #3F71FF 0%, #AA54FF 100%);
     border-image-slice: 1; 
-
     @apply max-w-[620px] w-full   ;
 }
 .registration-form::before {
