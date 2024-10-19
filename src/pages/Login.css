@@ -22,6 +22,7 @@
   }
 .registration-form--heading{
     @apply mt-[35px] text-gray-950 font-bold text-[28px] text-center;
+    
 }
 
 .registration-form--paragraph{
